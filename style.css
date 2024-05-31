@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@300&display=swap');
+:root{--dark:#218c74; --light:#f7f1e3; --theme:#227093}
+*{box-sizing: border-box; line-height: 1.5em; font-family: 'Raleway', sans-serif;}
+body{background:var(--light) ; margin: 0px; padding: 0px}
+p{text-align: justify; font-size: 14pt}
+li{font-size: 14pt}
+h1,h2,h3,h4{font-family: 'Playfair Display', serif;}
+a{text-decoration: none}
+main{background: white; width: 80%; margin: auto; padding:10px;}
+input{padding: 10px;margin-bootom:10px;}
+button{padding: 10px; background: var(--theme);; color: white; border: none}
+button:hover{background: var(--dark);}
+.row{display: flex;column-gap: 8px; }
+.col{flex:1}
+
+.tcenter{text-align: center;}
+.w50{width: 50%}
+.w75{width: 75%}
+.w100{width: 100%}
+.card{width: 65%; margin: auto; padding:10px; box-shadow: 0px 0px 5px 3px var(--light)}
+.bg{background: var(--dark); color: white}
+.bg:hover{background: var(--theme);}
+.title{font-size: 3em; color: var(--theme);}
+.pb-5{padding-bottom:50px;}
+#image{width:100%; height: 500px;filter:grayscale(70%) blur(2px) brightness(0.7) contrast(80%) sepia(33%) opacity(100%)}
+input[type="range"]{padding: 10px; margin-bottom: 10px; width:90%}
+#fimage{width:80%; height: 350px; display: block; margin:auto;}
